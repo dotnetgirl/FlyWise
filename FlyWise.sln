@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWise.Presentation", "FlyWise.Presentation\FlyWise.Presentation.csproj", "{B4141E90-8F6E-4CA1-A780-CF94C5300296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWise.Presentation", "FlyWise.Presentation\FlyWise.Presentation.csproj", "{B4141E90-8F6E-4CA1-A780-CF94C5300296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWise.Domain", "FlyWise.Domain\FlyWise.Domain.csproj", "{FEBFD7CF-AAD9-4D67-A44F-FC52BC467A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWise.Data", "FlyWise.Data\FlyWise.Data.csproj", "{02165B0B-51E9-4275-97F0-9D9BE555925B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWise.Service", "FlyWise.Service\FlyWise.Service.csproj", "{303E0955-4EA4-4923-9868-590DA836239F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B4141E90-8F6E-4CA1-A780-CF94C5300296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4141E90-8F6E-4CA1-A780-CF94C5300296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4141E90-8F6E-4CA1-A780-CF94C5300296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBFD7CF-AAD9-4D67-A44F-FC52BC467A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBFD7CF-AAD9-4D67-A44F-FC52BC467A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBFD7CF-AAD9-4D67-A44F-FC52BC467A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBFD7CF-AAD9-4D67-A44F-FC52BC467A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02165B0B-51E9-4275-97F0-9D9BE555925B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02165B0B-51E9-4275-97F0-9D9BE555925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02165B0B-51E9-4275-97F0-9D9BE555925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02165B0B-51E9-4275-97F0-9D9BE555925B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303E0955-4EA4-4923-9868-590DA836239F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303E0955-4EA4-4923-9868-590DA836239F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303E0955-4EA4-4923-9868-590DA836239F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303E0955-4EA4-4923-9868-590DA836239F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
