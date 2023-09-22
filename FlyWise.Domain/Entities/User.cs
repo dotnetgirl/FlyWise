@@ -1,5 +1,7 @@
 ﻿using FlyWise.Domain.Commons;
-using FlyWise.Domain.Enums;`
+using FlyWise.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
+
 namespace FlyWise.Domain.Entities;
 
 public class User : Auditable

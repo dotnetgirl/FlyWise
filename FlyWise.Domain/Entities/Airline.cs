@@ -1,14 +1,6 @@
 ﻿using FlyWise.Domain.Commons;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FlyWise.Domain.Entities
+namespace FlyWise.Domain.Entities;
+public class Airline : Auditable
 {
-    public class Airline : Auditable
-    {
-        public 
-    }
+    public string Name { get; set; }
 }

@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 namespace FlyWise.Data.Contexts;
-
 public class FlyWiseDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder options)

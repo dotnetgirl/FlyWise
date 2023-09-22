@@ -1,8 +1,5 @@
-﻿using FlyWise.Domain.Commons;
-
-namespace FlyWise.Domain.Entities;
-
-public class Ticket : Auditable
+﻿namespace FlyWise.Service.DTOs.Tıckets;
+public class TicketForCreationDto
 {
     public string FlightNumber { get; set; }
     public string DepartureCity { get; set; }
